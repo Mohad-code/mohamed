@@ -19,7 +19,6 @@ section
     min-height: 100vh;
     background-size: cover;
     background: linear-gradient(45deg, #FDA7DF, #f42f8c);
-    background-position: right;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -46,6 +45,7 @@ section
 {
     position: relative;
     background: #2196f3;
+    border-radius: 20px;
     display: inline-block;
     color: #fff;
     text-decoration: none;
@@ -107,6 +107,7 @@ header ul li
 header ul li a
 {
     background: #000;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, .6);
     padding: 10px 10px;
     border-radius: 10px;
     position: relative;
@@ -151,6 +152,7 @@ img
 {
     max-width: 100%;
     border-radius: 20px;
+
 }
 
 .content
@@ -174,6 +176,128 @@ img
 /* ============================================== about end ================================== */
 
 
+/* ======================================== skill start =======================================*/
+.skills
+{
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; */
+    padding: 20px;
+    background: linear-gradient(45deg,  #9980FA, #FDA7DF);
+
+}
+
+.skills h3
+{
+    border-radius: 20px;
+    padding: 20px 30px;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    margin-left: 40%;
+    background-color: #111;
+    color: snow;
+    cursor: default;
+}
+.skills h3:hover
+{
+    background: linear-gradient(45deg,  #9980FA, #ec9412);
+}
+
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wrapper .card {
+    margin: 20px;
+    margin-bottom: 20px;
+    width: calc(33% - 20px);
+    background-color: #fff;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+
+}
+.wrapper .card .circle
+{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    cursor: default;
+}
+.card .circle .box,
+.card .circle .box span
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transition: all 0.3s;
+
+}
+
+.card .circle .box
+{
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    transform: translate(-50%, -50%) scale(0.8);
+    border-radius: 50%;
+    transition: all 0.3s;
+
+}
+.card .circle:hover .box
+{
+    transform: translate(-50%, -50%) scale(0.91);
+
+}
+
+.card .circle .box span
+{
+    font-size: 38px;
+    transform: translate(-45%, -50%);
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.card .text
+{
+    font-size: 20px;
+    font-weight: 600;
+}
+@media(max-width: 991px) {
+    .wrapper {
+        flex-wrap: wrap;
+    }
+
+    .wrapper .card {
+        display: flex;
+    }
+}
+
+@media(max-width: 505px) {
+    .wrapper {
+        width: 100%;
+    }
+
+    .wrapper .card {
+        width: 100%;
+    }
+}
+
+
+
+/* ======================================== skill end =======================================*/
+
+
 /* ============================================= services start ===============================  */
 .services
 {
@@ -187,6 +311,7 @@ img
 {
     display: flex;
     justify-content: center;
+    width: 100%;
     /* flex-wrap: wrap; */
     flex-direction: row;
 }
@@ -196,7 +321,7 @@ img
     background: #222;
     border-radius: 20px;
     color: #fff;
-    max-width: 340px;
+    max-width: 500px;
     margin: 20px;
     text-align: center;
     transition: 0.5s;
@@ -294,8 +419,10 @@ img
     background: linear-gradient(45deg, #f42f8c, #3498db);
     cursor: pointer;
     text-transform: uppercase;
+    border-radius: 10px;
     letter-spacing: 2px;
     transition: 0.35s;
+    outline: none;
 
 }
 .formBx form input[type="submit"]:hover
@@ -339,6 +466,16 @@ img
     color: #fff;
     flex-direction: column;
     font-weight: 300;
+}
+.contact h2
+{
+     background: #f42f8c;
+     padding: 10px 10px;
+     border-radius: 10px;
+     position: relative;
+     display: inline-block;
+     margin-bottom: 25px;
+     text-decoration: none;
 }
 .contactinfoBx .box .text h3
 {
@@ -394,6 +531,7 @@ img
         color: #fff;
         font-size: 24px;
         margin: 10px;
+        box-shadow: 0px 5px 15px rgba(0, 0, 0, .6);
     }
     .toggle{
         width: 40px;
@@ -437,7 +575,6 @@ img
     }
     .content {
     flex-wrap: wrap;
-
     flex-direction: column;
     }
     .w50 {
@@ -472,14 +609,6 @@ img
 }
 
 }
-
-
-
-
-
-
-
-
 
 
 
