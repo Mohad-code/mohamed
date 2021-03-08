@@ -681,7 +681,6 @@ header.sticky ul li a:hover
         width: 30px;
         height: 40px;
         margin: 5px;
-        transform: translateY(-50%) rotate(-630deg);
 
     }
     .copyright{
