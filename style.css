@@ -528,11 +528,14 @@ header.sticky ul li a:hover
 /*======================================== social media start =================================== */
 .middle {
     position: absolute;
-    top: 50%;
+    right: 65%;
+    margin-bottom: 300px;
+    justify-content: center;
     transform: translateY(-50%);
-    margin-top: 150px;
+    margin-top: 100px;
     text-align: center;
     display: flex;
+    flex-direction: row;
 }
 
 .middle .btn {
@@ -547,14 +550,12 @@ header.sticky ul li a:hover
    margin-right: 40px;
    border-radius: 50px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.7);
-
 }
 
 .btn i {
     line-height: 70px;
     font-size: 16px;
     transition: 0.2s linear;
-
 }
 
 .btn:hover i {
@@ -669,16 +670,20 @@ header.sticky ul li a:hover
     .contactinfo {
     margin: 30px 0;
     }
-    .middle .btn{
-        width: 60px;
-        margin-right: 20px;
+    .middle{
+        margin-top: 120%;
+        margin-right: -200px;
     }
+    .middle .btn{
+        height: 50px;
+        margin: 10px;
+    }
+
     .skills h3
     {
         margin-left: 35%;
 
     }
-
 
 
 
