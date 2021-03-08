@@ -680,6 +680,15 @@ header.sticky ul li a:hover
         cursor: pointer;
 
     }
+     @media (hover:hover) {
+        .toggle:hover {
+            color: inherit;
+        }
+
+    @media (hover:hover) {
+    .toggle.active:hover {
+        color: inherit;
+    }
     section {
         padding: 100px 50px;
     }
