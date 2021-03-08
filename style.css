@@ -679,7 +679,7 @@ header.sticky ul li a:hover
     }
     .middle .btn{
         width: 30px;
-        height: 30px;
+        height: 40px;
         margin: 10px;
         transform: translateY(-50%) rotate(-630deg);
 
