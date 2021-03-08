@@ -678,17 +678,8 @@ header.sticky ul li a:hover
         background-repeat: no-repeat;
         background-size: 25px;
         cursor: pointer;
-
     }
-     @media (hover:hover) {
-        .toggle:hover {
-            color: inherit;
-        }
-
-    @media (hover:hover) {
-    .toggle.active:hover {
-        color: inherit;
-    }
+    
     section {
         padding: 100px 50px;
     }
