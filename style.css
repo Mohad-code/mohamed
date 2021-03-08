@@ -670,24 +670,26 @@ header.sticky ul li a:hover
     .contactinfo {
     margin: 30px 0;
     }
-    .middle{
-        margin-top: 120%;
+    
+     .middle{
+        /* margin-top: 120%; */
         margin-right: -200px;
     }
     .middle .btn{
         height: 50px;
         margin: 10px;
     }
+    .copyright{
+        padding: 10px;
+    }
+
 
     .skills h3
     {
         margin-left: 35%;
 
     }
-     .copyright{
-        padding: 10px;
-    }
-
+     
 
 
 @media (max-width: 600px){
