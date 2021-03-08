@@ -675,7 +675,7 @@ header.sticky ul li a:hover
     .middle{
         margin-top: -40%;
         transform: translateY(-50%) rotate(-90deg);
-        margin-right: -80%;
+/*         margin-right: -80%; */
     }
     .middle .btn{
         width: 30px;
