@@ -622,6 +622,8 @@ header.sticky ul li a:hover
         background-size: 40px;
         border-radius: 2px;
         cursor: pointer;
+        outline: none;
+
     }
     .toggle.active{
         background: url(img/close.png);
@@ -629,6 +631,8 @@ header.sticky ul li a:hover
         background-repeat: no-repeat;
         background-size: 25px;
         cursor: pointer;
+        outline: none;
+
     }
     section {
         padding: 100px 50px;
