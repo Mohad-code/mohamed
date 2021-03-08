@@ -672,15 +672,18 @@ header.sticky ul li a:hover
     }
     
      .middle{
-        /* margin-top: 120%; */
-        margin-right: -200px;
+        margin-top: -30%;
+        margin-right: -400px;
+        transform: translateY(-50%) rotate(-90deg);
     }
     .middle .btn{
         height: 50px;
         margin: 10px;
+        transform: translateY(-50%) rotate(-630deg);
+
     }
     .copyright{
-        padding: 10px;
+        padding: 20px;
     }
 
 
