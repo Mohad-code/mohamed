@@ -669,13 +669,13 @@ header.sticky ul li a:hover
     width: 100%;
     padding: 10px;
     }
-    .contactinfo {
+   .contactinfo {
     margin: 30px 0;
+    margin-bottom: 120px;
     }
     .middle{
-        margin-top: -40%;
-        transform: translateY(-50%) rotate(-90deg);
-/*         margin-right: -80%; */
+        margin-top: 10%;
+        margin-right: -40px;
     }
     .middle .btn{
         width: 30px;
