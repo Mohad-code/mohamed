@@ -152,6 +152,10 @@ header.sticky ul li a:hover
 
 
 /* ============================================== about start ================================== */
+.about
+{
+    background: #e5e8eb;
+}
 .heading
 {
     width: 100%;
