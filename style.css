@@ -592,7 +592,7 @@ header.sticky ul li a:hover
     width: 30px;
     height: 40px;
     margin: 5px;
-    background: linear-gradient(50deg, #3498db, #f42f8c, #3498db);
+    background: #000;
     display: flex;
     align-items: center;
     justify-content: center;
