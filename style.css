@@ -426,7 +426,7 @@ header.sticky ul li a:hover
 /* =============================================== formBx star ================================ */
 .contact
 {
-    background: #FF2C9C;
+    background: linear-gradient(45deg, #9980FA, #FDA7DF);
 }
 
 .formBx
