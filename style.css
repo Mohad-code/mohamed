@@ -463,7 +463,7 @@ header.sticky ul li a:hover
     outline: none;
     background: #222;
     color: #fff;
-    border-radius: 20px;
+    border-radius: 10px;
     resize: none;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.7);
 
