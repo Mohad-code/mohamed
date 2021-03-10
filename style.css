@@ -589,8 +589,8 @@ header.sticky ul li a:hover
 
 .middle .btn {
     display: inline-block;
-    width: 50px;
-    height: 60px;
+    width: 30px;
+    height: 40px;
     background: linear-gradient(50deg, #3498db, #f42f8c, #3498db);
     display: flex;
     align-items: center;
