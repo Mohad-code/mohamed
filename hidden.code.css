@@ -91,9 +91,9 @@ header .logo
 {
     color: rgb(0, 0, 0);
     font-size: 30px;
-    border: 1px solid #3498db;
+    border: 2px solid #111;
     padding: 0 10px;
-    border-radius: 30px;
+    border-radius: 50px;
     text-transform: uppercase;
     text-decoration: none;
     font-weight: 700;
@@ -439,7 +439,7 @@ header.sticky ul li a:hover
 /* =========================== formBx star ================================ */
 .contact
 {
-    background: linear-gradient(45deg, #F900B4, #445DED);
+    background: linear-gradient(50deg, #445DED, #F900B4, #2196f3);
     /* background: #F900B4; */
 }
 
@@ -460,12 +460,11 @@ header.sticky ul li a:hover
 {
     color: #fff;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 600;
     margin-bottom: 10px;
 }
 
 .box .text h3 {
-    color: #F6F9FC;
     /* background-color: #f42f8c; */
 }
 
@@ -479,8 +478,8 @@ header.sticky ul li a:hover
     outline: none;
     background: #222;
     color: #fff;
-    border-radius: 10px;
     resize: none;
+    border-radius: 10px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.7);
 
 }
@@ -498,12 +497,12 @@ header.sticky ul li a:hover
 
 .formBx form input[type="submit"]
 {
-    /* background: linear-gradient(50deg, #3498db, #f42f8c, #3498db); */
+    background: linear-gradient(50deg, #3498db, #f42f8c, #3498db);
     /* padding: 10px 30px; */
     max-width: 150px;
     cursor: pointer;
-    background: #445DED;
-    border: 2px solid #445DED;
+    background: #2196f3;
+    border: 2px solid #2196f3;
     text-transform: uppercase;
     border-radius: 10px;
     letter-spacing: 2px;
@@ -617,7 +616,7 @@ header.sticky ul li a:hover
     display: inline-block;
     width: 30px;
     height: 40px;
-    background: #4A4A4A;
+    background: #2196f3;
     display: flex;
     align-items: center;
     justify-content: center;
