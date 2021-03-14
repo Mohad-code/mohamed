@@ -13,7 +13,7 @@ section
 
 
 
-/* ============================== home start ============================================ */
+/* ============================== home start ================================ */
 .banner
 {
     position: relative;
@@ -61,11 +61,11 @@ section
     letter-spacing: 2px;
     font-weight: 500;
 }
-/* ============================================== home end ================================== */
+/* ============================ home end ================================== */
 
 
 
-/*  ============================================= header start================================ */
+/*  ========================= header start================================ */
 header
 {
     position: fixed;
@@ -149,11 +149,11 @@ header.sticky ul li a:hover
     background-image: linear-gradient(#9980FA, #FDA7DF);
 }
 
-/*  ============================================= header end ================================ */
+/*  ============================ header end ================================ */
 
 
 
-/* ============================================== about start ================================== */
+/* =========================== about start ================================== */
 .about
 {
     background: #e5e8eb;
@@ -201,11 +201,11 @@ header.sticky ul li a:hover
 {
     min-width: 50%;
 }
-/* ============================================== about end ================================== */
+/* =========================== about end ================================== */
 
 
 
-/* ======================================== skill start =======================================*/
+/* ========================== skill start ===================================*/
 .skills
 {
     padding: 20px;
@@ -302,6 +302,7 @@ header.sticky ul li a:hover
     font-size: 20px;
     font-weight: 600;
 }
+
 @media(max-width: 991px) {
     .wrapper {
         flex-wrap: wrap;
@@ -325,11 +326,11 @@ header.sticky ul li a:hover
 
 
 
-/* ======================================== skill end =======================================*/
+/* ======================== skill end =======================================*/
 
 
 
-/* ============================================= services start ===============================  */
+/* ========================= services start ===============================  */
 .services
 {
     background: #F6F9FC;
@@ -503,11 +504,11 @@ header.sticky ul li a:hover
 {
     transform: scale(.9);
 }
-/* =============================================== formBx end ================================ */
+/* ============================ formBx end ================================ */
 
 
 
-/* ========================================= contactinfoBx start ============================== */
+/* ====================== contactinfoBx start ============================== */
 .contactinfo
 {
     min-width: 40%;
@@ -580,11 +581,11 @@ header.sticky ul li a:hover
     font-weight: 500;
 }
 
-/* ========================================= contactinfoBx end ============================== */
+/* ==================== contactinfoBx end ============================== */
 
 
 
-/*======================================== social media start =================================== */
+/*====================== social media start ============================== */
 .middle {
     position: absolute;
     right: 65%;
@@ -621,12 +622,12 @@ header.sticky ul li a:hover
     transform: scale(1.3);
 }
 
-/*======================================= social media end =================================== */
+/*======================= social media end =============================== */
 
 
 
 
-/* ========================================== copyright start =================================*/
+/* ======================== copyright start =================================*/
 .copyright
 {
     background: #000;
@@ -634,12 +635,12 @@ header.sticky ul li a:hover
     text-align: center;
     padding: 30px;
 }
-/* ========================================== copyright end ====================================*/
+/* =========================== copyright end =============================*/
 
 
 
 
-/* ========================================= Responsive ===================================== */
+/* ====================== Responsive ===================================== */
 
 @media (max-width: 991px)
 {
@@ -656,14 +657,20 @@ header.sticky ul li a:hover
         text-align: center;
         width: 100%;
         height: 100vh;
-        background: #FFFFFF;
+        background: rgb(238, 227, 227);
         transition: 0.5s;
-        z-index: 999;
+        z-index: 1000;
         border-top: 1px solid rgba(0,0,0,0.2);
     }
+
     .menu.active{
         left: 0;
     }
+
+    .logo{
+        margin-bottom: 10px;
+    }
+
     header ul li a{
         color: #fff;
         font-size: 24px;
@@ -671,6 +678,7 @@ header.sticky ul li a:hover
         box-shadow: 0px 5px 15px rgba(0, 0, 0, .6);
         margin-top: -20px;
     }
+
     .toggle{
         width: 40px;
         height: 40px;
@@ -682,6 +690,7 @@ header.sticky ul li a:hover
         border-radius: 2px;
         cursor: pointer;
     }
+
     .toggle.active{
         background: url(img/close.png);
         background-position: center;
@@ -689,27 +698,33 @@ header.sticky ul li a:hover
         background-size: 25px;
         cursor: pointer;
     }
-    
+
     section {
         padding: 100px 50px;
     }
+
     .banner{
         padding: 150px 50px 100px;
     }
+
     .banner h2{
         font-size: 1.5em;
     }
+
     .banner h3 {
     font-size: 1em;
     }
+
     .btn{
     margin-top: 20px;
     padding: 10px 20px;
     font-size: 16px;
     }
+
     .heading h2 {
     font-size: 22px;
     }
+
     .contentBx h3 {
     font-size: 20px;
     }
