@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Ubuntu:wght@300;400;500;700&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -212,23 +212,25 @@ header.sticky ul li a:hover
     background: linear-gradient(45deg,  #9980FA, #FDA7DF);
 }
 
-.skills h3
+.skills h1
 {
-    border-radius: 20px;
+    border-radius: 50px;
+    font-family: "Ubuntu", sans-serif;
     padding: 20px 30px;
     display: inline-block;
+    font-size: 40px;
     text-align: center;
     align-items: center;
     margin-left: 44%;
     letter-spacing: 2px;
-    background-color: #111;
+    /* background-color: #111; */
     color: snow;
     cursor: default;
 }
 
 .skills h3:hover
 {
-    background: linear-gradient(45deg,  #9980FA, #ec9412);
+    /* background: linear-gradient(45deg,  #9980FA, #ec9412); */
 }
 
 .wrapper {
@@ -434,11 +436,13 @@ header.sticky ul li a:hover
 
 
 
-/* =============================================== formBx star ================================ */
+/* =========================== formBx star ================================ */
 .contact
 {
-    background: linear-gradient(45deg, #9980FA, #FDA7DF);
+    background: linear-gradient(45deg, #F900B4, #445DED);
+    /* background: #F900B4; */
 }
+
 
 .formBx
 {
@@ -458,6 +462,11 @@ header.sticky ul li a:hover
     font-size: 20px;
     font-weight: 500;
     margin-bottom: 10px;
+}
+
+.box .text h3 {
+    color: #F6F9FC;
+    /* background-color: #f42f8c; */
 }
 
 .formBx form input,
@@ -489,20 +498,26 @@ header.sticky ul li a:hover
 
 .formBx form input[type="submit"]
 {
-    max-width: 100px;
-    background: linear-gradient(50deg, #3498db, #f42f8c, #3498db);
+    /* background: linear-gradient(50deg, #3498db, #f42f8c, #3498db); */
+    /* padding: 10px 30px; */
+    max-width: 150px;
     cursor: pointer;
+    background: #445DED;
+    border: 2px solid #445DED;
     text-transform: uppercase;
     border-radius: 10px;
     letter-spacing: 2px;
-    transition: 0.35s;
+    font-weight: 600;
     outline: none;
+    transition: .35s ;
+    box-shadow: none;
 
 }
 
 .formBx form input[type="submit"]:hover
 {
-    transform: scale(.9);
+    color: #ffff;
+    background: none;
 }
 /* ============================ formBx end ================================ */
 
@@ -742,6 +757,11 @@ header.sticky ul li a:hover
         margin: 10px;
     }
 
+    .work{
+    margin-top: -100px;
+
+    }
+
     .work .content .workBx {
     width: 100%;
     padding: 10px;
@@ -767,9 +787,9 @@ header.sticky ul li a:hover
         padding: 20px;
     }
 
-    .skills h3
+    .skills h1
     {
-        margin-left: 35%;
+        margin-left: 25%;
 
     }
 
