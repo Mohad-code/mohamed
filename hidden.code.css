@@ -689,7 +689,7 @@ header.sticky ul li a:hover
         margin: 40px;
         box-shadow: 0px 5px 15px rgba(0, 0, 0, .6);
         margin-top: -20px;
-        bottom: -10px;
+        bottom: -20px;
     }
 
     .toggle{
