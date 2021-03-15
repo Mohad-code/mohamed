@@ -51,12 +51,12 @@ section
 {
     position: relative;
     background: #2196f3;
-    border-radius: 20px;
+    border-radius: 10px;
     display: inline-block;
     color: #fff;
     text-decoration: none;
     margin-top: 20px;
-    padding: 10px 30px;
+    padding: 15px 20px;
     font-size: 18px;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -730,7 +730,6 @@ header.sticky ul li a:hover
 
     .btn{
     margin-top: 20px;
-    padding: 10px 20px;
     font-size: 16px;
     }
 
