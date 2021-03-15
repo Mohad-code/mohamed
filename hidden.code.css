@@ -6,6 +6,7 @@
     font-family: "Poppins", sans-serif;
     scroll-behavior: smooth;
 }
+
 section
 {
     padding: 100px;
@@ -498,7 +499,6 @@ header.sticky ul li a:hover
 .formBx form input[type="submit"]
 {
     background: linear-gradient(50deg, #3498db, #f42f8c, #3498db);
-    /* padding: 10px 30px; */
     max-width: 150px;
     cursor: pointer;
     background: #2196f3;
@@ -784,6 +784,7 @@ header.sticky ul li a:hover
     }
     .copyright{
         padding: 20px;
+        font-size: 15px;
     }
 
     .skills h1
@@ -795,8 +796,8 @@ header.sticky ul li a:hover
 
 
 @media (max-width: 600px){
-      header,
-      header.sticky {
+      header, header.sticky
+       {
         padding: 20px 20px;
     }
 
@@ -807,9 +808,37 @@ header.sticky ul li a:hover
     section{
         padding: 100px 10px;
     }
+    .wrapper .card
+    {
+        width: calc(100% - 20px);
+    }
 
 }
 
+
+@media (max-width: 375px) {
+    .formBx form input[type="submit"] {
+        margin-bottom: 10px;
+
+    }
+
+    .middle {
+        right: 220px;
+    }
+
+    .copyright {
+        font-size: 14px;
+    }
+
 }
 
 
+@media (max-width: 320px){
+
+    .middle {
+     right: 160px;
+    }
+}
+
+
+}
