@@ -60,6 +60,7 @@ section
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: 500;
+    border-radius: 10px;
 }
 /* ============================ home end ================================== */
 
