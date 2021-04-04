@@ -289,57 +289,59 @@
 
 
 <!-- ======================== javascript start =========================== -->
-
-
-<!-- nav start -->
+    
+    <!-- nav start -->
     <script type"text/javascript">
-    window.addEventListener("scroll", function(){
-        var header = document.querySelector("header");
-        header.classList.toggle("sticky", window.scrollY > 0);
-    })
+     window.addEventListener("scroll", function(){ var
+        header=document.querySelector("header"); header.classList.toggle("sticky", window.scrollY>
+        0);
+        })
 
-    function toggleMenu(){
-        var menuToggle = document.querySelector(".toggle");
-        var menu = document.querySelector(".menu");
-        menuToggle.classList.toggle("active")
-        menu.classList.toggle("active")
-    }
+        function toggleMenu() {
+            var menuToggle = document.querySelector(".toggle");
+            var menu = document.querySelector(".menu");
+            menuToggle.classList.toggle("active")
+            menu.classList.toggle("active")
+        }
     </script>
-<!-- nav end -->
+    <!-- nav end -->
 
-
-
-<!-- ================================ circle Progress start ================ -->
-
+    <!-- =============== circle Progress start ================ -->
     <script>
         let options = {
             startAngle: -1.55,
             size: 150,
             value: 0.80,
-            fill: {color: "red"}
+            fill: {
+                color: "red"
+            }
 
         }
         $(".circle .bar").circleProgress(options).on("circle-animation-progress",
-        function(event, progress, stepValue){
-            $(this).parent().find('span').text(String(stepValue.toFixed(2).substr(2)) + "%");
-        });
+            function (event, progress, stepValue) {
+                $(this).parent().find('span').text(String(stepValue.toFixed(2).substr(2)) + "%");
+            });
         $('.css .bar').circleProgress({
             value: 0.50,
         });
         $('.python .bar').circleProgress({
             value: 0.60,
         });
-         $('.html .bar').circleProgress({
+        $('.html .bar').circleProgress({
             value: 0.80,
         });
-         $('.javascript .bar').circleProgress({
+        $('.javascript .bar').circleProgress({
             value: 0.20,
         });
+
+        $('.scroll-up-btn').click(function () {
+        $('html').animate({
+        scrollTop: 0
+        });
+        });
     </script>
-<!-- ============================== circle Progress end =================== -->
+    <!-- ========== circle Progress end ============ -->
 
-
-
-<!-- ======================== javascript end ======================== -->
+    <!-- ======================== javascript end ======================== -->
 </body>
 </html>
